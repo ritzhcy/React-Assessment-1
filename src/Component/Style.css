@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(lightblue, pink, lightyellow);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.heading{
+    text-shadow: 0 0 5px black ,0 0 5px cyan;
+}
+.button1{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: lightblue;
+    position: absolute;
+    top: 130px;
+    left: 380px;
+}
+.button1:hover{
+    background-color: aqua;
+}
+.button2{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: lightblue;
+    position: absolute;
+    top: 130px;
+    left: 730px;
+}
+.button2:hover{
+    background-color: aqua;
+}
+.container1{
+    border: 2.5px solid black;
+    height: 260px;
+    width: 500px;
+    padding-top: 18px;
+    background-color: aqua;
+    border-radius: 40px;
+    position: absolute;
+    top: 280px;
+    left: 130px;
+}
+.container2{
+    border: 2.5px solid black;
+    height: 260px;
+    width: 500px;
+    padding-top: 18px;
+    background-color: violet;
+    border-radius: 40px;
+    position: absolute;
+    top: 280px;
+    left: 730px;
+}
